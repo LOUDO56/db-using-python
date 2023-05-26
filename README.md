@@ -3,5 +3,5 @@ A website that use python to communicate with a database
 
 # How to use
 
-You will need to download the source code in ZIP. Once you did that, you will need to open "serveur.py" and execute him in the background.
+You will need to download the source code in ZIP. Once you did that, you will need to open "serveur.py" and execute it in the background.
 After, go to a browser and go to http://localhost:80/liste-plante.py. And you are done!
