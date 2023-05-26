@@ -1,3 +1,5 @@
+// This code is abandonned, he do nothing.
+
 document.getElementById("passer_admin").addEventListener("click", () => {
     partie_admin = document.getElementsByClassName("admin");
     if (document.getElementById("passer_admin").innerHTML === "Passer en mode administrateur"){
