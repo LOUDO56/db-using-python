@@ -3,7 +3,7 @@ import sqlite3 as sql
 def liste_rdv():
     """Cette fonction permet d'afficher la page web de la liste des rendez-vous."""
     co = sql.connect('plantes_medicinales.db') # On se connecte à la base de données
-    liste_rdv = [] #Définition de la table sur les informations de chaque rendew-vous
+    liste_rdv = [] #Définition de la table sur les informations de chaque rendez-vous
     for row in co.execute("SELECT * FROM rdv"): # On récupère les informations de la table Rdv en faisant une requète à la base de données
         liste_rdv.append(list(row))
     if len(liste_rdv) != 0: # Si la table n'est pas vide
