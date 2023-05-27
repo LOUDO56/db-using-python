@@ -85,8 +85,5 @@ def liste_rdv():
                 </table>""")
     print("</main> </body> </html>")
     co.close()
-    
-def broad_id(id):
-    print(id)
-    
+
 liste_rdv()
